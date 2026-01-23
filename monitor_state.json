@@ -1,0 +1,20 @@
+{
+  "is_running": true,
+  "check_interval_minutes": 1,
+  "last_check_time": "2026-01-23T15:14:24.607059",
+  "total_checks": 19,
+  "total_files_extracted": 3,
+  "last_extraction_result": {
+    "success": true,
+    "files_extracted": [],
+    "emails_processed": 0,
+    "errors": [],
+    "timestamp": "2026-01-23T15:14:24.607059"
+  },
+  "filters": {
+    "sender_email": null,
+    "subject_contains": null,
+    "unread_only": true,
+    "max_results": 10
+  }
+}
