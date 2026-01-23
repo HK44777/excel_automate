@@ -1,0 +1,32 @@
+{
+  "Apex Systems": {
+    "company_name": "Apex Systems",
+    "vesting_templates": [
+      "4Y_STD_25_CLIFF",
+      "3Y_ACCEL_MONTHLY",
+      "5Y_RETENTION_BACK",
+      "2Y_PERF_CLIFF"
+    ],
+    "plan_names": [
+      "APEX_ESOP_2021",
+      "APEX_RSU_GROWTH",
+      "APEX_LEADERSHIP_VAR",
+      "APEX_FOUNDER_EQ"
+    ]
+  },
+  "Nebula Corp": {
+    "company_name": "Nebula Corp",
+    "vesting_templates": [
+      "4Y_QTR_UNIFORM",
+      "3Y_HYBRID_CLIFF",
+      "1Y_SIGNOFF_RSU",
+      "4Y_MONTHLY_NO_CLIFF"
+    ],
+    "plan_names": [
+      "NEB_GLOBAL_OPT_23",
+      "NEB_TECH_INCENTIVE",
+      "NEB_MGT_STOCK",
+      "NEB_EARLY_BIRD"
+    ]
+}
+}

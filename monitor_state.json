@@ -1,15 +1,15 @@
 {
   "is_running": true,
   "check_interval_minutes": 1,
-  "last_check_time": "2026-01-23T15:14:24.607059",
-  "total_checks": 19,
-  "total_files_extracted": 3,
+  "last_check_time": "2026-01-23T17:45:20.182663",
+  "total_checks": 59,
+  "total_files_extracted": 5,
   "last_extraction_result": {
     "success": true,
     "files_extracted": [],
     "emails_processed": 0,
     "errors": [],
-    "timestamp": "2026-01-23T15:14:24.607059"
+    "timestamp": "2026-01-23T17:45:20.182663"
   },
   "filters": {
     "sender_email": null,
