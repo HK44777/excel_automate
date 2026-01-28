@@ -230,10 +230,9 @@ class GmailExcelExtractor:
                         company.company_code
                     )
 
-                    df = pd.read_excel(file_path)
-
-                    report, cleaned_df = formatting.process_and_validate_excel(
-                        df,
+                    # Validate and format the file IN-PLACE
+                    report, success = formatting.validate_and_format_dates_inplace(
+                        file_path,
                         company.company_name,
                         company_db
                     )
@@ -245,14 +244,12 @@ class GmailExcelExtractor:
                         continue
 
                     # ---------- SUCCESS ----------
-                    cleaned_path = file_path.with_name(
-                        f"{file_path.stem}_cleaned.xlsx"
-                    )
-                    cleaned_df.to_excel(cleaned_path, index=False)
-
+                    # File is already validated and formatted in-place
+                    # No need to create a new file!
+                    
                     extracted.append(ExtractedFile(
                         filename=att["filename"],
-                        filepath=str(cleaned_path),
+                        filepath=str(file_path),  # Use the original file path
                         size_bytes=att["size"],
                         email_subject=meta["subject"],
                         email_from=meta["from"],
