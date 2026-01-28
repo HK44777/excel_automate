@@ -2,3 +2,4 @@ venv
 .env
 token.json
 credentials.json
+app/uploader/session_state.json

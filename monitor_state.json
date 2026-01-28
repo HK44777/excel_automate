@@ -1,15 +1,28 @@
 {
-  "is_running": true,
-  "check_interval_minutes": 1,
-  "last_check_time": "2026-01-23T17:45:20.182663",
-  "total_checks": 59,
-  "total_files_extracted": 5,
+  "is_running": false,
+  "check_interval_minutes": 2,
+  "last_check_time": "2026-01-28T20:41:44.495488",
+  "total_checks": 74,
+  "total_files_extracted": 7,
   "last_extraction_result": {
     "success": true,
-    "files_extracted": [],
-    "emails_processed": 0,
+    "files_extracted": [
+      {
+        "filename": "HopNMoveXYZ.xlsx",
+        "filepath": "downloads\\hnm\\20260128_204143_HopNMoveXYZ_cleaned.xlsx",
+        "size_bytes": 43228,
+        "email_subject": "Esop test",
+        "email_from": "Kumud Ghimire <ghimirekumudraj@gmail.com>",
+        "email_date": "Wed, 28 Jan 2026 20:40:47 +0530",
+        "email_id": "19c05286c7ec49bb",
+        "attachment_id": "ANGjdJ_MwYI0GIxwfHkP_s_mNDucYPjvRDmVQQUIS9Xba9TFJJUOTx2_gILObDCSV-U-4zga-GALKypGadvB3Vf1Oy9rDTrj5P15hQNU4qf32yo4PdaeNRA5hV-q_Qjdb_JmzGGtTg8TXroqSUlxph0C_LeMzEDPa4BKjn4WF-Iiqiy4huPccV6BA9ufW1c-m4b6OQRp52OAO5RPca5f3nGPWTP8tePWpy4VdEL_gbIuvBLKFExs3cvSK_3ZKlnFtMXibXkhwJqaLszmUjexfG6wjn4F_0mhIKrDYOsamo8jFkEPx5Rr95dmloVeQezzO2knVSuBxSBd-cgdZxtiAekv3GgcHnBoJjudD6WIBuehomH1oQmsGmZAFsxt5JfDCMR-bJfygXE_yKhESrme",
+        "company_code": "hnm",
+        "company_name": "HopNMove Pvt Ltd"
+      }
+    ],
+    "emails_processed": 1,
     "errors": [],
-    "timestamp": "2026-01-23T17:45:20.182663"
+    "timestamp": "2026-01-28T20:41:44.495488"
   },
   "filters": {
     "sender_email": null,

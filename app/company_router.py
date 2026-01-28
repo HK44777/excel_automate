@@ -16,7 +16,7 @@ class CompanyContext:
 # ✅ 1) Map sender email -> company context
 SENDER_TO_COMPANY: Dict[str, CompanyContext] = {
     # dev sender -> mapped company
-    "ghimirekumudraj@gmail.com": CompanyContext(company_code="abc", company_name="ABC Corp"),
+    "ghimirekumudraj@gmail.com": CompanyContext(company_code="hnm", company_name="HopNMove Pvt Ltd"),
     "hemanthkumar.r2005@gmail.com": CompanyContext(company_code="nec", company_name="Nebula Corp"),
     # add more later
     # "hr.xyz@gmail.com": CompanyContext(company_code="xyz", company_name="XYZ Industries"),

@@ -28,5 +28,21 @@
       "NEB_MGT_STOCK",
       "NEB_EARLY_BIRD"
     ]
-}
+  },
+  "HopNMove Pvt Ltd": {
+    "company_name": "hnm Corp",
+    "vesting_templates": [
+      "4 Y, 1 Y Cliff, Yearly Vesting Equally",
+      "3Y_HYBRID_CLIFF",
+      "1Y_SIGNOFF_RSU",
+      "4Y_MONTHLY_NO_CLIFF"
+    ],
+    "plan_names": [
+      "NEB_GLOBAL_OPT_23",
+      "NEB_TECH_INCENTIVE",
+      "plan jj trust",
+      "NEB_EARLY_BIRD"
+    ]
+  }
+
 }
